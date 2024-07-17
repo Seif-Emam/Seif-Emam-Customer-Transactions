@@ -1,0 +1,71 @@
+body {
+    margin: 20px;
+         background-color: #573CFA;
+    color: white;
+}
+.table-wrapper {
+    margin: 20px 0;
+}
+.table th, .table td {
+    vertical-align: middle;
+}
+
+
+.table td{
+        color: #573CFA;
+
+}
+
+
+
+.table th{
+
+    background-color: #573CFA !important;
+    color: #f8f9fa;
+}
+
+.footer {
+    background-color: #573CFA; /* Dark background */
+    color: #ffffff; /* White text color */
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.footer .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color: white; /* Lighter color for the text */
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: white; /* Lighter color for the icons */
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #8676e0; /* White color on hover */
+}

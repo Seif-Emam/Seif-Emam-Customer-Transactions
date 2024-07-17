@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Transactions</title>
+     <link rel="shortcut icon" href="images/icons8-transaction-50.png" type="image/x-icon">
+        <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+          <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2 class="my-4 text-center"><i class="fa-solid fa-circle-user"></i> Customer Transactions</h2>
+
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <input type="text" id="customerName" class="form-control" placeholder="Filter by Customer Name">
+        </div>
+        <div class="col-md-6">
+            <input type="number" id="transactionAmount" class="form-control" placeholder="Filter by Transaction Amount">
+        </div>
+    </div>
+
+    <div class="table-wrapper">
+        <table class="table table-bordered table-hover " id="transactionTable">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Customer ID</th>
+                    <th>Name</th>
+                    <th>Transaction ID</th>
+                    <th>Date</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody id="transactionTableBody">
+            </tbody>
+        </table>
+    </div>
+
+    <div class="my-4">
+        
+            <canvas id="transactionChart" width="400" height="200"></canvas>
+                
+    </div>
+
+
+
+</div>
+<!-- Your existing HTML content -->
+
+<!-- Your existing HTML content -->
+
+<footer class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="footer-text">Coding by Seif Emam - July 2024</p>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Font Awesome for social icons -->
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="JS/index.js"></script>
+
+</body>
+</html>
